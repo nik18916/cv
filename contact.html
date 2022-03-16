@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Contact Details</h2>
+    <ol><!--creates an ordered list using numbers or letters-->
+        <li> Email.</li>
+        <li> Phone.</li>
+        <li> LinkedIn</li>
+    </ol>
+    <hr>
+    <form action="mailto:nik.riyu@yahoo.com" method="post" enctype="text/plain"> <!--creates a form
+     action="mailto:####" sends mail to mentioned address. enctype decides the encoding type, here, its plain text. -->
+        <label>Your Name</label>     <!--creates a label  -->
+        <input type="text" name="Name" value=""> <br> <!--creates a input box where you can choose the type...here for ex.:text -->
+        <label>Your Email</label>
+        <input type="email" name="Email"><br> <!--creates a input box where you can type password, and it won't be visible -->
+
+        <textarea name="Message" rows="10" cols="30"></textarea><br>
+        <!-- text area creates a box where a message can be typed. The default size of the box can be adjusted in
+        rows=## and cols=##. It can be readjusted in the form also.-->
+
+        <input type="submit" name=""><br> <!--creates a input box where you can choose the type submit -->
+
+        <!--for all the inputs above, a name is mentioned in the name attribute which will be printed when the form
+         is submitted. It can be left blank too.- -->
+    </form>
+</body>
+</html>
